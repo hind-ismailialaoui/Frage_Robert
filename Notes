@@ -1,0 +1,51 @@
+Mixed Reality Lab – Assistant NLP
+
+- Structure du projet
+
+Ce projet vise à créer une base de données complète et interrogeable pour un assistant intelligent (NLP) au sein du Mixed Reality Lab. Il permet de stocker et retrouver toutes les ressources du laboratoire : équipements, logiciels, accessoires, emplacements, personnes, etc.
+
+- Fonctionnement général
+
+1. Base de données relationnelle avec SQLAlchemy
+   Utilisation d’SQLite (fichier local lab.db)
+   ORM avec SQLAlchemy pour la modélisation (fichier models.py)
+   Tables principales : Equipment, Software, Accessory, Location, Person, Inventory, Alias, etc.
+
+2. Initialisation de la base
+   Le fichier init_db.py :
+   Crée toutes les tables dans lab.db
+   À exécuter une seule fois ou pour réinitialiser
+   python init_db.py
+
+3. Importation automatique des données JSON
+   Les données sont stockées dans le dossier bdd/ sous forme de fichiers .json :
+   Exemples : equipment.json, people.json, locations.json, etc.
+
+Le fichier import_data.py :
+Charge tous les fichiers JSON
+Crée les objets Python correspondants
+Les insère dans la base SQLite
+
+python import_data.py
+
+✔️ Tu peux modifier ou compléter les données directement dans les fichiers .json.
+✔️ Aucune saisie manuelle dans Python n’est nécessaire.
+
+- Dossier bdd/ – Données sources
+
+Fichier JSON Contenu
+
+equipment.json Matériel (nom, type, catégorie, etc.)
+software.json Logiciels utilisés
+accessories.json Accessoires disponibles
+locations.json Pièces ou espaces du lab
+people.json Informations sur les personnes
+inventory.json Liens entre objets et emplacements
+aliases.json Synonymes ou termes alternatifs
+
+- Technologies utilisées
+
+Python 3.x
+SQLAlchemy
+SQLite
+VS Code
