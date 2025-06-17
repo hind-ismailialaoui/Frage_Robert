@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "name": "HDMI Cable",
+      "type": "Cable",
+      "description": "Câble HDMI haute vitesse pour la connexion vidéo."
+    },
+    {
+      "id": 2,
+      "name": "USB Key",
+      "type": "Storage",
+      "description": "Clé USB pour transférer les fichiers volumineux."
+    }
+  ]
+  

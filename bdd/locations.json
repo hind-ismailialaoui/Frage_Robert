@@ -1,0 +1,13 @@
+[
+    {
+      "id": 1,
+      "name": "XR Lab",
+      "description": "Espace pour expérimenter les casques VR/XR."
+    },
+    {
+      "id": 2,
+      "name": "CAD Room",
+      "description": "Salle dédiée aux projets de conception assistée."
+    }
+  ]
+  

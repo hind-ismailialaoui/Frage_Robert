@@ -1,0 +1,13 @@
+[
+    {
+      "id": 1,
+      "name": "Artec Studio",
+      "description": "Logiciel de traitement pour les scanners Artec."
+    },
+    {
+      "id": 2,
+      "name": "Geomagic Design X",
+      "description": "Logiciel de rétro-ingénierie pour les modèles 3D."
+    }
+  ]
+  

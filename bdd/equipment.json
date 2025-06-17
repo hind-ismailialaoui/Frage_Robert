@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "Artec Leo",
+      "type": "Scanner",
+      "category": "CAD",
+      "description": "Scanner 3D portable pour objets moyens à grands."
+    },
+    {
+      "id": 2,
+      "name": "Meta Quest 3",
+      "type": "Headset",
+      "category": "VR",
+      "description": "Casque VR autonome de Meta compatible avec plusieurs jeux."
+    }
+  ]
+  

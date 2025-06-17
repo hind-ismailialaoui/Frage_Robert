@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "name": "Oculus",
+      "target_type": "equipment",
+      "target_id": 2
+    },
+    {
+      "id": 2,
+      "name": "clé usb",
+      "target_type": "accessory",
+      "target_id": 2
+    }
+  ]
+  
